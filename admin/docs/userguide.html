@@ -1,0 +1,519 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>WSO2 Enterprise Service Bus - </title>
+    <style type="text/css" media="all">
+      @import url("../../css/maven-base.css");
+      @import url("../../css/maven-theme.css");
+      @import url("../../css/site.css");
+    </style>
+    <link rel="stylesheet" href="../../css/print.css" type="text/css" media="print" />
+          </head>
+  <body class="composite">
+    <div id="banner">
+                    <span id="bannerLeft">
+    
+            WSO2 ESB - Distribution
+    
+            </span>
+                    <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+  
+  
+    
+            <div class="xleft">
+        Last Published: 2011-12-19
+                      </div>
+            <div class="xright">            <a href="http://synapse.apache.org/index.html" class="externalLink">Synapse</a>
+            |
+                <a href="http://wso2.org/projects/wsas/java" class="externalLink">WSAS</a>
+            |
+                <a href="http://wso2.org/projects/registry" class="externalLink">Registry</a>
+            |
+                <a href="http://wso2.org/projects/mashup" class="externalLink">Mashup Server</a>
+            |
+                <a href="http://wso2.org/projects/wsf" class="externalLink">WSF</a>
+            |
+                <a href="http://ws.apache.org/axis2" class="externalLink">Axis2/Java</a>
+            |
+                <a href="http://wso2.org/" class="externalLink">WSO2.org</a>
+            
+  
+
+  
+    
+  
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+  
+  
+    
+                   <h5>Overview</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../../index.html">Home</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../release-notes.html">Release Note</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://www.apache.org/licenses/LICENSE-2.0.html" class="externalLink">License</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../docs_index.html">Contents</a>
+          </li>
+          </ul>
+              <h5>Downloads</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="http://wso2.org/downloads/esb/" class="externalLink">Releases</a>
+          </li>
+          </ul>
+              <h5>Documentation</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../../installation_guide.html">Installation Guide</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../quickstart_guide.html">Quick Start Guide</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../user_guide.html">User Guide</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../configuration_language.html">Configuration</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../admin_guide.html">Administrator Guide</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../deployment_guide.html">Deployment Guide</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../extensions_guide.html">Extending ESB</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../securing_secret_information.html">Secure Vault</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../message_relay.html">Message Relay</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../priority_mediation.html">Priority Mediation</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../message_processor.html">Message Processor</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../message_store.html">Message Store</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../templates.html">Templates</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../transactions.html">Transactions</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../monitoring.html">Monitoring</a>
+          </li>
+          </ul>
+              <h5>Samples</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../../samples_setup_guide.html">Samples Setup</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples_index.html">Samples Index</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/message_mediation_samples.html">Message Mediation</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/endpoint_mediation_samples.html">Endpoints</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/qos_mediation_samples.html">QoS Mediation</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/proxy_samples.html">Proxy Services</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/qos_proxy_samples.html">QoS Proxies</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/transport_samples.html">Transports</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/task_samples.html">Tasks</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/advanced_mediation_samples.html">Advanced Mediation</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/rule_samples.html">Rules</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/store_n_forward_samples.html">Message Stores/Processors</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../samples/templates_samples.html">Templates</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../feature_guide.html">Feature Guide</a>
+          </li>
+          </ul>
+              <h5>Catalogs</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../../mediator_guide.html">Mediators</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../endpoint_guide.html">Endpoints</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../transports/transports-catalog.html">Transports</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../properties_guide.html">Properties</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../xpath.xml">XPath Extensions</a>
+          </li>
+          </ul>
+              <h5>Resources</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../../faq.html">FAQ's</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://ws.apache.org/synapse/apidocs/index.html" class="externalLink">Java Docs</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../external_articles.html">External Articles</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://wso2.org/library/esb" class="externalLink">Library</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://wso2.org/projects/esb/java/features" class="externalLink">Features</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../source-repository.html">Source Code</a>
+          </li>
+          </ul>
+              <h5>Community</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="http://wso2.org/forum/187" class="externalLink">Forum</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../mail-lists.html">Mailing Lists</a>
+          </li>
+          </ul>
+              <h5>Project Info</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../../issue-tracking.html">Issue Tracking</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../../dependencies.html">Dependencies</a>
+          </li>
+          </ul>
+                                                 
+                        
+                        
+            <a href="http://synapse.apache.org/" title="Apache Synapse" class="poweredBy">
+                            <img alt="Apache Synapse" src="../../images/synapse-PBX.jpg" />
+            </a>
+                               
+  
+
+  
+    
+  
+  
+    
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        <html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">WSO2 Carbon Server Home<link href="../../admin/css/documentation.css" rel="stylesheet" type="text/css" media="all"></head><h1>
+    WSO2 Carbon Server Home Page</h1><p> When you log on to
+    the WSO2 Carbon Server, the home page displays information about
+    the server hosting envrionment, the JVM configuration information, the
+    deployed operating system and the logged in user information in four
+    separate tables. </p>
+<table class="bodyTable"><tbody><tr class="a"><td>Server</td>
+</tr>
+<tr class="b"><td>
+            Host
+        </td>
+<td>
+            The server IP address
+        </td>
+</tr>
+<tr class="a"><td>
+            Server URL
+        </td>
+<td>
+            URL of the hosted services
+        </td>
+</tr>
+<tr class="b"><td>
+            Server Start Time
+        </td>
+<td>
+            The server start time, displayed precisely to the second.
+        </td>
+</tr>
+<tr class="a"><td>
+            System Up Time
+        </td>
+<td>
+            The up time of the system, displayed precisely to the second.
+        </td>
+</tr>
+<tr class="b"><td>
+            Version
+        </td>
+<td>
+            Server version
+        </td>
+</tr>
+<tr class="a"><td>
+            Repository Location
+        </td>
+<td>
+            The respository location folder used by Carbon.
+        </td>
+</tr>
+<tr class="b"><td>Operating System</td>
+</tr>
+<tr class="a"><td>
+            OS Name
+        </td>
+<td>The version of the operating system used by the server</td>
+</tr>
+<tr class="b"><td>
+            OS Version
+        </td>
+<td>The version of the operating system</td>
+</tr>
+<tr class="a"><td>Operating System User</td>
+</tr>
+<tr class="b"><td>
+            Country
+        </td>
+<td>
+            The locale of the operating system user running the Carbon server.
+        </td>
+</tr>
+<tr class="a"><td>
+            Home
+        </td>
+<td>
+            The home directory of the operating system user running Carbon.
+        </td>
+</tr>
+<tr class="b"><td>
+            Name
+        </td>
+<td>
+            The name of the operating system user running Carbon.
+        </td>
+</tr>
+<tr class="a"><td>
+            Timezone
+        </td>
+<td>
+            The timezone of the operating system user running Carbon.
+        </td>
+</tr>
+<tr class="b"><td>Java VM</td>
+</tr>
+<tr class="a"><td>
+            Java Home
+        </td>
+<td>
+            The location of the Java runtime library
+        </td>
+</tr>
+<tr class="b"><td>
+            Java Runtime Name
+        </td>
+<td>
+            The Java runtime name ( For example : Java(TM) 2 Runtime
+            Environment, Standard Edition )
+        </td>
+</tr>
+<tr class="a"><td>
+            Java Version
+        </td>
+<td>
+            The version of the Java runtime library</td>
+</tr>
+<tr class="b"><td>
+            Java Vendor
+        </td>
+<td>
+            The Java runtime vendor
+        </td>
+</tr>
+<tr class="a"><td>
+            Java VM Version
+        </td>
+<td>The version of the Java virtual machine</td>
+</tr>
+<tr class="b"><td>Registry</td>
+</tr>
+<tr class="a"><td>
+            Registry Type
+        </td>
+<td>
+            Values can be 'Embedded' or 'Remote'. Indicates whether this server uses
+            an embedded Registry or remote Registry
+        </td>
+</tr>
+<tr class="b"><td>
+            Registry Database Name
+        </td>
+<td>
+            Name of the Registry DB
+        </td>
+</tr>
+<tr class="a"><td>
+            Registry Database Version
+        </td>
+<td>
+            Version of the Registry DB
+        </td>
+</tr>
+<tr class="b"><td>
+            Database Driver Name
+        </td>
+<td>
+            Name of the JDBC driver used
+        </td>
+</tr>
+<tr class="a"><td>
+            Database Driver Version
+        </td>
+<td>
+            Version of the JDBC driver used
+        </td>
+</tr>
+<tr class="b"><td>
+            Database URL
+        </td>
+<td>
+            JDBC URL of the Embedded Registry DB
+        </td>
+</tr>
+</tbody></table>
+</html>
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2011
+    
+          WSO2 Inc
+          
+  
+
+  
+    
+  
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>
